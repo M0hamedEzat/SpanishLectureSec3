@@ -1,76 +1,82 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
+
+body {
   background: linear-gradient(135deg, #FFC20E, #E87F63);
   font-family: Arial, sans-serif;
 }
+
 header {
   text-align: center;
   margin-bottom: 20px;
 }
 
-#headphoto{
-    width: 20vw;
-    border-radius: 100%;
-    margin-bottom: 3%;
-    border: 5px solid #2c2424;
+#headphoto {
+  width: 20vw;
+  border-radius: 100%;
+  margin-bottom: 3%;
+  border: 5px solid #2c2424;
 }
+
 @media (max-width: 768px) {
   #headphoto {
-    width: 50%; /* Adjusted width for larger screens */
-    margin-bottom: 25%;
+    width: 50%;
+    margin-bottom: 15%;
   }
 }
-#brief{
-    position: relative;
-    justify-content: center;
-    text-align: justify;
-    font-size: 20px;
-    height: 10px;
-    margin-bottom: 10%;
-    margin-top: 5%;
- font-weight: bold;
+
+#brief {
+  position: relative;
+  justify-content: center;
+  text-align: justify;
+  font-size: 20px;
+  height: 10px;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  font-weight: bold;
 }
-.pbreif{
-width:80%; 
-direction:rtl; 
-text-align: right;
+
+.pbreif {
+  width: 80%;
+  direction: rtl;
+  text-align: right;
 }
+
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-
 h1, h2 {
-color: #333333;
-font-weight: bold;
-font-family: 'Courier New', Courier, monospace;
+  color: #333333;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 section {
   margin-bottom: 40px;
 }
-#lecture{
-    text-align: justify;
-    font-size: 20px;
-    color: #ffffff;
-    height: 60vh;
 
+#lecture {
+  text-align: justify;
+  font-size: 20px;
+  color: #ffffff;
+  min-height: 60vh;
 }
+
 section.text-center {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh; /* Adjust this value to fit your needs */
 }
-.h2lecture{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 10%;
-    margin-top: 30%;
+
+.h2lecture {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10%;
+  margin-top: 30%;
 }
 
 .video-container {
@@ -87,10 +93,12 @@ section.text-center {
   width: 100%;
   height: 100%;
 }
+
 .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 }
 
 .social-icon {
@@ -98,16 +106,15 @@ section.text-center {
   font-size: 37px;
   margin-right: 35px;
   color: #333; /* Adjust color as needed */
-  margin-top: 10%;
-
 }
+
 .download-button {
   margin-top: 20px;
+  text-align: center;
 }
 
 .download-button a {
   display: inline-block;
-  float: right;
   padding: 10px 20px;
   background-color: #ff0303; /* Adjust background color as needed */
   color: #fff; /* Adjust text color as needed */
