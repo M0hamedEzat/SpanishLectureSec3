@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #4d4242;
+  background: linear-gradient(135deg, #FFC20E, #E87F63);
   font-family: Arial, sans-serif;
 }
 header {
@@ -22,7 +22,6 @@ header {
     justify-content: center;
     text-align: justify;
     font-size: 20px;
-    color: #ffffff;
     height: 10px;
     margin-bottom: 10%;
 }
@@ -34,7 +33,9 @@ header {
 
 
 h1, h2 {
-
+color: #333333;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
 }
 
 section {
@@ -44,7 +45,7 @@ section {
     text-align: justify;
     font-size: 20px;
     color: #ffffff;
-    height: 60vh;
+    height: 70vh;
 
 }
 section.text-center {
@@ -56,7 +57,6 @@ section.text-center {
 .h2lecture{
     text-align: center;
     font-size: 30px;
-    color: #ffffff;
     margin-bottom: 5%;
     margin-top: 30%;
 }
@@ -96,7 +96,7 @@ section.text-center {
   display: inline-block;
   float: right;
   padding: 10px 20px;
-  background-color: #b6890e; /* Adjust background color as needed */
+  background-color: #ff0303; /* Adjust background color as needed */
   color: #fff; /* Adjust text color as needed */
   text-decoration: none;
   border-radius: 5px;
