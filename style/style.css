@@ -11,12 +11,17 @@ header {
 }
 
 #headphoto{
-    width: 30%;
-    position: relative;
+    width: 20vw;
     border-radius: 100%;
     margin-bottom: 0;
     border: 5px solid #2c2424;
 }
+@media (max-width: 768px) {
+  #headphoto {
+    width: 50%; /* Adjusted width for larger screens */
+  }
+}
+
 #brief{
     position: relative;
     justify-content: center;
@@ -45,7 +50,7 @@ section {
     text-align: justify;
     font-size: 20px;
     color: #ffffff;
-    height: 70vh;
+    height: 60vh;
 
 }
 section.text-center {
@@ -57,7 +62,7 @@ section.text-center {
 .h2lecture{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     margin-top: 30%;
 }
 
