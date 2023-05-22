@@ -19,10 +19,7 @@ header {
 @media (max-width: 768px) {
   #headphoto {
     width: 50%; /* Adjusted width for larger screens */
-    margin-bottom: 15%;
-  }
-  .pbreif{
-      width: 100%;
+    margin-bottom: 25%;
   }
 }
 #brief{
