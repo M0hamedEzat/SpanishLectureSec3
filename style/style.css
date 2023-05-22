@@ -13,15 +13,18 @@ header {
 #headphoto{
     width: 20vw;
     border-radius: 100%;
-    margin-bottom: 0;
+    margin-bottom: 3%;
     border: 5px solid #2c2424;
 }
 @media (max-width: 768px) {
   #headphoto {
     width: 50%; /* Adjusted width for larger screens */
+    margin-bottom: 15%;
+  }
+  .pbreif{
+      width: 100%;
   }
 }
-
 #brief{
     position: relative;
     justify-content: center;
@@ -29,6 +32,13 @@ header {
     font-size: 20px;
     height: 10px;
     margin-bottom: 10%;
+    margin-top: 5%;
+ font-weight: bold;
+}
+.pbreif{
+width:80%; 
+direction:rtl; 
+text-align: right;
 }
 .container {
   max-width: 800px;
@@ -91,6 +101,7 @@ section.text-center {
   font-size: 37px;
   margin-right: 35px;
   color: #333; /* Adjust color as needed */
+  margin-top: 10%;
 
 }
 .download-button {
