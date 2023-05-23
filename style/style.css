@@ -14,10 +14,17 @@ header {
 
 #headphoto {
   width: 20vw;
-  border-radius: 100%;
+  border-radius: 50%;
   margin-bottom: 3%;
   border: 5px solid #2c2424;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease-in-out;
+
 }
+#headphoto:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
 
 @media (max-width: 768px) {
   #headphoto {
@@ -35,13 +42,38 @@ header {
   margin-bottom: 10%;
   margin-top: 5%;
   font-weight: bold;
+    padding: 20px;
+
+
+}
+.box {
+  background-color: #333333;
+  width: 60%;
+  margin: 0 auto; /* Center the box horizontally */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
-.pbreif {
-  width: 80%;
+@media (max-width: 768px) {
+  .box {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+}
+
+.pbrief {
+  width: 95%;
   direction: rtl;
   text-align: right;
+  color:antiquewhite;
+  margin: 0 auto; /* Center the text within the box */
 }
+
+@media (max-width: 768px) {
+  .pbrief {
+    width: 100%; /* Adjust the width for smaller screens */
+  }
+}
+
 
 .container {
   max-width: 800px;
@@ -53,6 +85,7 @@ h1, h2 {
   color: #333333;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
+
 }
 
 section {
